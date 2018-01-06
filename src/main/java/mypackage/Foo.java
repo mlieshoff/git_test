@@ -6,7 +6,11 @@ package mypackage;
 public class Foo {
 
     public String bar() {
-        return "hello world!";
+        return say("hello world!");
+    }
+
+    public String say(String message) {
+        return message;
     }
 
 }
